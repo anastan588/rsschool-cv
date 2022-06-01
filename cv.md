@@ -2,6 +2,7 @@
 ### Contact information:
 Belarus, Novopolotsk
 e-mail: anastasiya5.88@mail.ru
+[LinkedIn](https://www.linkedin.com/in/anastasiya-a-75b79b229/)
 ## Summary:
 I am a purposeful specialist, not afraid of difficulties and know how to cope with them. I am searching for new interesting experience developing my new professional skills. I am always ready to learn something new and improve my professional level.
 ## Hard skills:
