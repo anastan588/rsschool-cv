@@ -2,61 +2,138 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CV HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV HTML RSSCHOOL</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
-  <body>
-    <h1>Anastasiya Andronava</h1>
-    <img src="foto.png" alt="no image">
-    <h3>Contact information:</h3>
-    <p>
-      Belarus, Novopolotsk <br>
-      <a href="mailto:anastasiya5.88@mail.ru">anastasiya5.88@mail.ru</a>
-    </p>
-    <h3>Summary:</h3>
-    <p>
-      I am a purposeful specialist, not afraid of difficulties and know how to
-      cope with them.<br>I am searching for new interesting experience
-      developing my new professional skills.<br>I am always ready to learn
-      something new and improve my professional level.
-    </p>
-    <h3>Hard skills:</h3>
-    <p>
-      Good knowledge of software testing theory;<br>
-      Preparation of test documentation: test plan, checklist, writing test
-      cases; <br>
-      Knowledge of project lifecycle, understanding of Agile development
-      technologies;<br>
-      Basic knowledge of HTML, SQL, API; <br>Knowledge of tracking defects in
-      JIRA; <br>Skills in Chrome DevTools;<br>Knowledge of basic testing of
-      Web-Applications, Mobile Testing; <br>Knowledge of test design
-      techniques.<br>Microsoft OS practical experience.
-    </p>
-    <h3>Soft skills:</h3>
-    <p>
-      Communication, teamwork, big data analytics, adaptability, stress
-      resistance
-    </p>
-    <h3>Courses:</h3>
-    <p>
-      2020–2021 "Functional software testing", SENLA. Certificate of
-      Achievement. <br>2020–2021 Software testing introduction ( Svyatoslav
-      Kulikov, EPAM learning platform) <br>2020–2021 Computer science basic
-      (Vitali Shulha, EPAM learning platform)
-    </p>
-    <h3>Languages:</h3>
-    <p>English – A2+.<br>Russian – native.</p>
-    <h3>Education:</h3>
-    <p>
-      2011-2014 Belarus state economic university<br>2006-2011 Polotsk state
-      university
-    </p>
-    <h3>Working experience:</h3>
-    <p>
-      2014-present time - Economist at JSC “SRSU-3 Novopolotsk” (extensive
-      experience in finding the reasons for unprofitable work, took part in
-      inspection of work another organization).<br>2012-2014 - Marketing
-      engineer at JSC “Invet”<br>2011-2012 - Economist at JSC “Invet”
-    </p>
+  <body class="body">
+    <div class="center-page">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Hard skills</a></li>
+          <li class="nav-item"><a href="#sskills" class="nav-link">Soft skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        </ul>
+      </nav>
+      <div class="two-columns">
+        <div class="first-column">
+          <header class="header">
+            <img class="header-image" src="foto.png" alt="no image">
+            <h1>Anastasiya Andronava</h1>
+            <h2>Junior front-end developer</h2>
+            <h2>(QA engineer)</h2>
+          </header>
+          <main>
+            <section class="section">
+              <h3 id="contacts">Contact information</h3>
+              <ul>
+                <li>Belarus, Novopolotsk</li>
+                <li><a href="mailto:anastasiya5.88@mail.ru">e-mail</a></li>
+                <li><a href="https://www.linkedin.com/in/anastasiya-a-75b79b229/">LinkedIn</a></li>
+              </ul>
+            </section>
+            <section class="section">
+              <h3 id="languages">Languages</h3>
+              <ul>
+                <li>English – A2+.</li>
+                <li>Russian – native.</li>
+              </ul>
+            </section>
+            <section class="section">
+              <h3 class="h3-style" id="skills">Hard skills:</h3>
+              <ul>
+                <li>Good knowledge of software testing theory;</li>
+                <li>Preparation of test documentation: test plan, checklist,<br>writing
+                  test cases;</li>
+                <li>Knowledge of project lifecycle;</li>
+                <li>Understanding of Agile development technologies;</li>
+                <li>Basic knowledge of HTML, SQL, API;</li>
+                <li>Knowledge of tracking defects in JIRA;</li>
+                <li>Skills in Chrome DevTools;</li>
+                <li>Knowledge of basic testing of Web-Applications,<br>Mobile Testing;</li>
+                <li>Knowledge of test design techniques;</li>
+                <li>Microsoft OS practical experience;</li>
+              </ul>
+            </section>
+          </main>
+        </div>
+        <aside class="second-column">
+          <section class="section">
+            <h3 id="summary">About me</h3>
+            <ul>
+              <li>I am a purposeful specialist, not afraid of difficulties and know how to cope with them.</li>
+              <li>I am searching for new interesting experience developing my new professional skills.</li>
+              <li>I am always ready to learn something new and <br>improve my professional level.</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h3 id="sskills">Soft skills</h3>
+            <ul>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Big data analytics</li>
+              <li>Adaptability</li>
+              <li>Stress resistance</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h3 id="courses">Courses</h3>
+            <ul>
+              <li>2020–2021 "Functional software testing", SENLA. Certificate of Achievement.</li>
+              <li>2020–2021 Software testing introduction (Svyatoslav Kulikov, EPAM learning platform)</li>
+              <li>2020–2021 Computer science basic (Vitali Shulha, EPAM learning platform)</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h3 id="education">Education</h3>
+            <ul>
+              <li>2011-2014 Belarus state economic university</li>
+              <li>2006-2011 Polotsk state university</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h3 id="work">Working experience</h3>
+            <ul>
+              <li>
+                2014-present time - Economist at JSC “SRSU-3 Novopolotsk”
+                (extensive experience in finding the reasons for unprofitable
+                work, took part in inspection of work another organization)
+              </li>
+              <li>2012-2014 - Marketing engineer at JSC “Invet”</li>
+              <li>2011-2012 - Economist at JSC “Invet”</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h3 id="projects">Projects</h3>
+             <ul>
+              <li><a class="projects" href=https://anastan588.github.io/rsschool-cv/ target="_blank">My Curriculum vitae</a></li>
+             </ul>
+          </section>
+          <section class="section">
+            <h3 id="code">Example of code</h3>
+              <ul>
+                <li><pre>console.log('Hello, World!')</pre></li>
+              </ul>
+          </section>
+        </aside>
+      </div>
+      <footer class="section">
+        <a class="my-github" href="https://github.com/anastan588" target="_blank">
+          <img src="icons/github.png" alt="GitHub">Visit my GitHub</a>
+        <a class="rs-school" href="https://rs.school/js-stage0/" target="_blank">
+          <img src="icons/rs_school.svg" alt="RS_School" width="80" height="30">© 2022</a>
+      </footer>
+    </div>
   </body>
 </html>
