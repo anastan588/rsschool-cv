@@ -8,18 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 758px) {
-  .body {
-    width: 100%;
-  }
-
 .body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: rgb(239, 252, 251);
-  font-family: var(--font-family);
 }
 
 .center-page {
@@ -67,9 +61,10 @@ html {
   align-items: center;
 }
 
+
 .nav-link {
   padding: 0px 0px 0px 20px;
-  line-height: 20 px;
+  line-height: 20px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
@@ -84,7 +79,6 @@ html {
 
 h1 {
   color: var(--font-color);
-  font-size: 26 px;
   font-family: var(--font-family);
   font-weight: bold;
   line-height: 1;
@@ -93,7 +87,6 @@ h1 {
 h2 {
   margin:2px 2px 2px 2px;
   color: var(--font-color);
-  font-size: 20 px;
   font-family: var(--font-family);
   font-style: italic;
   line-height: 1;
@@ -108,9 +101,9 @@ h3 {
 
 .section {
   color: var(--font-color);
-  font-size: 14 px;
   font-family: var(--font-family);
-  }
+}
+
 
 .projects {
   text-decoration: none;
