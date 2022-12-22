@@ -1,138 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV HTML RSSCHOOL</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
   </head>
   <body class="body">
-    <div class="center-page">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Hard skills</a></li>
-          <li class="nav-item"><a href="#sskills" class="nav-link">Soft skills</a></li>
-          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#work" class="nav-link">Experience</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-        </ul>
-      </nav>
-      <div class="two-columns">
-        <div class="first-column">
-          <header class="header">
-            <img class="header-image" src="foto.png" alt="no image">
-            <h1>Anastasiya Andronava</h1>
-            <h2>Junior front-end developer</h2>
-            <h2>(QA engineer)</h2>
-          </header>
-          <main>
-            <section class="section">
-              <h3 id="contacts"><img src="icons/file.png" alt="item" width="26" height="26">Contact information</h3>
-              <ul>
-                <li><img src="icons/place.png" alt="place" width="26" height="26">Belarus, Novopolotsk</li>
-                <li><img src="icons/world.png" alt="world" width="26" height="26"><a href="mailto:anastasiya5.88@mail.ru" target="_blank">e-mail</a></li>
-                <li><img src="icons/world.png" alt="world" width="26" height="26"><a href="https://www.linkedin.com/in/anastasiya-a-75b79b229/" target="_blank">LinkedIn</a></li>
-              </ul>
-            </section>
-            <section class="section">
-              <h3 id="languages"><img src="icons/file.png" alt="item" width="26" height="26">Languages</h3>
-              <ul>
-                <li>English – A2+.</li>
-                <li>Russian – native.</li>
-              </ul>
-            </section>
-            <section class="section">
-              <h3 class="h3-style" id="skills"><img src="icons/file.png" alt="item" width="26" height="26">Hard skills</h3>
-              <ul>
-                <li>Good knowledge of software testing theory;</li>
-                <li>Preparation of test documentation: test plan, checklist,<br>writing
-                  test cases;</li>
-                <li>Knowledge of project lifecycle;</li>
-                <li>Understanding of Agile development technologies;</li>
-                <li>Basic knowledge of HTML, SQL, API;</li>
-                <li>Knowledge of tracking defects in JIRA;</li>
-                <li>Skills in Chrome DevTools;</li>
-                <li>Knowledge of basic testing of Web-Applications,<br>Mobile Testing;</li>
-                <li>Knowledge of test design techniques;</li>
-                <li>Microsoft OS practical experience;</li>
-              </ul>
-            </section>
-          </main>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Hard skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sskills" class="nav-link">Soft skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="image_section">
+          <div class="image_frame">
+            <img
+              class="header-image"
+              src="AnastasiyaAndronova.jpg"
+              alt="no image"
+            />
+          </div>
+
+          <h1>Anastasiya Andronava</h1>
+          <h2>Junior front-end developer</h2>
+          <h2>(QA engineer)</h2>
+        </section>
+        <section class="section">
+          <div id="summary" class="section_name">
+            <img src="icons/user.png" alt="user" width="26" height="26" />
+            <h3>About me</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              I am a purposeful specialist, not afraid of difficulties and know
+              how to cope with them.
+            </li>
+            <li>
+              I am searching for new interesting experience developing my new
+              professional skills.
+            </li>
+            <li>
+              I am always ready to learn something new and improve my
+              professional level.
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <div id="sskills" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Soft skills</h3>
+          </div>
+          <ul class="section_list">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Big data analytics</li>
+            <li>Adaptability</li>
+            <li>Stress resistance</li>
+          </ul>
+        </section>
+        <section class="section">
+          <div class="section_name" id="skills">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Hard skills</h3>
+          </div>
+          <ul class="section_list">
+            <li>Good knowledge of software testing theory;</li>
+            <li>
+              Preparation of test documentation: test plan, checklist,writing
+              test cases;
+            </li>
+            <li>Knowledge of project lifecycle;</li>
+            <li>Understanding of Agile development technologies;</li>
+            <li>Basic knowledge of HTML, SQL, API;</li>
+            <li>Knowledge of tracking defects in JIRA;</li>
+            <li>Skills in Chrome DevTools;</li>
+            <li>
+              Knowledge of basic testing of Web-Applications,Mobile Testing;
+            </li>
+            <li>Knowledge of test design techniques;</li>
+            <li>Microsoft OS practical experience;</li>
+          </ul>
+        </section>
+        <section class="section">
+          <div id="contacts" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Contact information</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              <img
+                src="icons/place.png"
+                alt="place"
+                width="26"
+                height="26"
+              />Belarus, Novopolotsk
+            </li>
+            <li>
+              <img src="icons/world.png" alt="world" width="26" height="26" /><a
+                href="mailto:anastasiya5.88@mail.ru"
+                target="_blank"
+                >e-mail</a
+              >
+            </li>
+            <li>
+              <img src="icons/world.png" alt="world" width="26" height="26" /><a
+                href="https://www.linkedin.com/in/anastasiya-a-75b79b229/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <div id="courses" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Courses</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              2020–2021 "Functional software testing", SENLA. Certificate of
+              Achievement.
+            </li>
+            <li>
+              2020–2021 Software testing introduction (Svyatoslav Kulikov, EPAM
+              learning platform)
+            </li>
+            <li>
+              2020–2021 Computer science basic (Vitali Shulha, EPAM learning
+              platform)
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <div id="languages" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Languages</h3>
+          </div>
+          <ul class="section_list">
+            <li>English – A2+.</li>
+            <li>Russian – native.</li>
+          </ul>
+        </section>
+        <section class="section">
+          <div id="education" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Education</h3>
+          </div>
+          <ul class="section_list">
+            <li>2011-2014 Belarus state economic university</li>
+            <li>2006-2011 Polotsk state university</li>
+          </ul>
+        </section>
+        <section class="section section_projects">
+          <div id="projects" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>My projects</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/rsschool-cv/"
+                target="_blank"
+                >My Curriculum vitae(HTML)</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/rsschool-cv/cv"
+                target="_blank"
+                >My Curriculum vitae(Markdown)</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/travel/"
+                target="_blank"
+                >Travel landing page</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/webdev/"
+                target="_blank"
+                >Webdev landing page</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/online-zoo/"
+                target="_blank"
+                >Online-zoo landing page</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/yalow/"
+                target="_blank"
+                >Yalow landing page</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/momentum/"
+                target="_blank"
+                >Momentum application</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/books-shop/"
+                target="_blank"
+                >Book-shop application</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://rolling-scopes-school.github.io/anastan588-JSFELT2022Q3/calculator/"
+                target="_blank"
+                >Calculator application</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects"
+                href="https://anastan588.github.io/songbird/"
+                target="_blank"
+                >Song-bird application</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div id="work" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Working experience</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              2014-present time - Economist at JSC “SRSU-3 Novopolotsk”
+              (extensive experience in finding the reasons for unprofitable
+              work, took part in inspection of work another organization)
+            </li>
+            <li>2012-2014 - Marketing engineer at JSC “Invet”</li>
+            <li>2011-2012 - Economist at JSC “Invet”</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div id="code" class="section_name">
+            <img src="icons/file.png" alt="item" width="26" height="26" />
+            <h3>Example of code</h3>
+          </div>
+          <ul class="section_list">
+            <li>
+              <pre><code>function solution(str){
+  let arr = str.split('');
+  console.log(arr);
+  let arrReverse = arr.reverse();
+  console.log(arrReverse);
+  let result = arrReverse.join('');
+  console.log(result);
+  return result;
+}
+            </code></pre>
+            </li>
+          </ul>
+        </section>
+        <section class="section_projects_examples">
+          <div id="work" class="section_name_examples">
+            <h3>Project examples</h3>
+          </div>
+          <ul class="section_list_examples">
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/rsschool-cv/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-rsschool-cv-2022-11-18-13_52_18.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/rsschool-cv/cv"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-rsschool-cv-cv-2022-12-22-16_02_28.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/travel/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-travel-2022-11-18-13_54_12.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/webdev/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-webdev-2022-11-18-13_55_40.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/online-zoo/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-online-zoo-2022-11-18-13_56_07.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/yalow/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-yalow-2022-11-18-13_57_49.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/momentum/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-momentum-2022-11-18-13_55_05.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/books-shop/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-books-shop-2022-11-18-13_58_35.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://rolling-scopes-school.github.io/anastan588-JSFELT2022Q3/calculator/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-rolling-scopes-school-github-io-anastan588-JSFELT2022Q3-calculator-2022-11-18-13_59_18.png"
+              /></a>
+            </li>
+            <li class="section_list_examples_item">
+              <a
+                class="projects_examples"
+                href="https://anastan588.github.io/songbird/"
+                target="_blank"
+                ><img
+                  class="example_image"
+                  alt="example"
+                  src="/icons/screencapture-anastan588-github-io-songbird-quiz-html-2022-11-18-14_19_03.png"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <div>
+          <a
+            class="rs-school"
+            href="https://rs.school/js-stage0/"
+            target="_blank"
+          >
+            <img
+              src="icons/rs_school_js_white.svg"
+              alt="RS_School"
+              width="80"
+              height="30"
+            />© 2022</a
+          >
         </div>
-        <aside class="second-column">
-          <section class="section">
-            <h3 id="summary"><img src="icons/user.png" alt="user" width="26" height="26">About me</h3>
-            <ul>
-              <li>I am a purposeful specialist, not afraid of difficulties and know how to cope with them.</li>
-              <li>I am searching for new interesting experience developing my new professional skills.</li>
-              <li>I am always ready to learn something new and <br>improve my professional level.</li>
-            </ul>
-          </section>
-          <section class="section">
-            <h3 id="sskills"><img src="icons/file.png" alt="item" width="26" height="26">Soft skills</h3>
-            <ul>
-              <li>Communication</li>
-              <li>Teamwork</li>
-              <li>Big data analytics</li>
-              <li>Adaptability</li>
-              <li>Stress resistance</li>
-            </ul>
-          </section>
-          <section class="section">
-            <h3 id="courses"><img src="icons/file.png" alt="item" width="26" height="26">Courses</h3>
-            <ul>
-              <li>2020–2021 "Functional software testing", SENLA. Certificate of Achievement.</li>
-              <li>2020–2021 Software testing introduction (Svyatoslav Kulikov, EPAM learning platform)</li>
-              <li>2020–2021 Computer science basic (Vitali Shulha, EPAM learning platform)</li>
-            </ul>
-          </section>
-          <section class="section">
-            <h3 id="education"><img src="icons/file.png" alt="item" width="26" height="26">Education</h3>
-            <ul>
-              <li>2011-2014 Belarus state economic university</li>
-              <li>2006-2011 Polotsk state university</li>
-            </ul>
-          </section>
-          <section class="section">
-            <h3 id="work"><img src="icons/file.png" alt="item" width="26" height="26">Working experience</h3>
-            <ul>
-              <li>
-                2014-present time - Economist at JSC “SRSU-3 Novopolotsk”
-                (extensive experience in finding the reasons for unprofitable
-                work, took part in inspection of work another organization)
-              </li>
-              <li>2012-2014 - Marketing engineer at JSC “Invet”</li>
-              <li>2011-2012 - Economist at JSC “Invet”</li>
-            </ul>
-          </section>
-          <section class="section">
-            <h3 id="projects"><img src="icons/file.png" alt="item" width="26" height="26">Projects</h3>
-             <ul>
-              <li><a class="projects" href="https://anastan588.github.io/rsschool-cv/" target="_blank">My Curriculum vitae(HTML)</a></li>
-              <li><a class="projects" href="https://anastan588.github.io/rsschool-cv/cv" target="_blank">My Curriculum vitae(Markdown)</a></li>
-             </ul>
-          </section>
-          <section class="section">
-            <h3 id="code"><img src="icons/file.png" alt="item" width="26" height="26">Example of code</h3>
-              <ul>
-                <li><pre><code>console.log('Hello, World!');</code></pre></li>
-              </ul>
-          </section>
-        </aside>
-      </div>
-      <footer class="section">
-        <a class="my-github" href="https://github.com/anastan588" target="_blank">
-          <img src="icons/github.png" alt="GitHub">Visit my GitHub</a>
-        <a class="rs-school" href="https://rs.school/js-stage0/" target="_blank">
-          <img src="icons/rs_school.svg" alt="RS_School" width="80" height="30">© 2022</a>
+        <div>
+          <a
+            class="my-github"
+            href="https://github.com/anastan588"
+            target="_blank"
+          >
+            <img src="icons/icons8-github-48.png" alt="GitHub" />Visit my GitHub</a
+          >
+        </div>
       </footer>
     </div>
   </body>
